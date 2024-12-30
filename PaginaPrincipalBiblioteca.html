@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard da Biblioteca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(a.jpg);
+            color: #b6b0b0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #c0b6b6;
+        }
+
+        b {
+            text-align: center;
+            margin: 20px 0;
+            color: rgb(89, 157, 213);
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: rgb(207, 122, 47);
+        }
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .option {
+            width: 150px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border: 2px solid rgb(89, 157, 213);
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .option:hover {
+            background-color: #ffe6b3;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px 0;
+            background-color: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Biblioteca Firjan Senai <b>CAXIAS</b></h1>
+
+        <!-- Seção de Cadastros -->
+        <div class="section">
+            <h2>Cadastros</h2>
+            <div class="options">
+                <a href="CadastroLivro.html" class="option">LIVROS</a>
+                <a href="EmprestimoLivros.html" class="option">EMPRÉSTIMOS</a>
+                <a href="cadastroUsuario.html" class="option">USUÁRIOS</a>
+                <a href="CadastroCDD.html" class="option">CDD</a>
+                <a href="CadastroFuncionarios.html" class="option">FUNCIONÁRIOS</a>
+            </div>
+        </div>
+
+        <!-- Seção de Consultas -->
+        <div class="section">
+            <h2>Consultas</h2>
+            <div class="options">
+                <a href="ConsultarLivros.html" class="option">LIVROS</a>
+                <a href="ConsultarEmprestimo.html" class="option">EMPRÉSTIMOS</a>
+                <a href="consultar_usuario.html" class="option">USUÁRIOS</a>
+                <a href="ConsultarCDD.html" class="option">CDD</a>
+                <a href="ConsultarFuncionarios.html" class="option">FUNCIONÁRIOS</a>
+            </div>
+        </div>
+
+        <!-- Seção de Alterar/Editar -->
+        <div class="section">
+            <h2>Alterar / Editar</h2>
+            <div class="options">
+                <a href="AlterarLivros.html" class="option">LIVROS</a>
+                <a href="Alt_emprestimo.html" class="option">EMPRÉSTIMOS</a>
+                <a href="AlterarUsuarios.html" class="option">USUÁRIOS</a>
+                <a href="alterarcdd.html" class="option">CDD</a>
+                <a href="AlterarFuncionarios.html" class="option">FUNCIONÁRIOS</a>
+            </div>
+        </div>
+
+        <!-- Seção de Deletar/Excluir -->
+        <div class="section">
+            <h2>Deletar / Excluir</h2>
+            <div class="options">
+                <a href="deletar_livros.html" class="option">LIVROS</a>
+                <a href="deletar_emprestimos.html" class="option">EMPRÉSTIMOS</a>
+                <a href="de

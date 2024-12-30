@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+<style>
+body{
+    background-color: #4e2020;
+    font-family: Arial;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 50;
+    height: 100vh;
+   
+
+}
+
+fieldset{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    display:flex;
+    border: 1px solid #fffdfd;
+    border-radius: 0%;
+    gap: 20%;
+    background-color: #8d5a5a;
+    padding: 20px;
+    height: 50vh;
+    
+   
+}
+
+p{
+    color: aliceblue;
+    font-size: 40px;
+    text-align:center;
+    height: 2%;
+}
+label{
+    color: #000000;
+    font-size: 20px;
+}
+input[type="password"],
+input[type="text"]{
+    width: 50%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+input[type="submit"]{
+    width: 70%;
+            padding: 6px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #4e2020;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
+
+</style>
+
+</head>
+<body>
+<fieldset>
+
+<form action="logar.php" method="post">
+     <p>Tela de Login</p>
+<label>E-mail:</label>
+<input type="text" name="email" id="email" required><br><br>
+<label>Senha:</label>
+<input type="password"  name="senha" id="senha" required><br><br>
+
+<input type="submit" name="logar" value="LOGAR">
+</form>
+</fieldset>
+</body>
+</html>
